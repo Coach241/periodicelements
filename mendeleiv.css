@@ -1,3 +1,18 @@
 .terreux {
     background-color: orange;
+    width: 100px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.petit {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+.oneTwoThree {
+    display: flex;
+    flex-direction: column;
+}
+.mg {
+    text-align: center;
 }
