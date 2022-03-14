@@ -1,7 +1,10 @@
-<<<<<<< HEAD
 .arriereplan
 {
    background-color: #e6dfdf;
 }
-=======
->>>>>>> b05e670dd7e5228380cd6503830a8e1cf518d3be
+div
+{
+   width:40px;
+   border:1px solid black;
+   height:40px;
+}
