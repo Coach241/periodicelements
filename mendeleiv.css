@@ -1,3 +1,40 @@
-.gaz_rare{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gaz_rare {
     background-color: blue;
+}
+
+.elm {
+    border: .5px solid;
+    border-radius: 4px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: blue;
+
+}
+
+.elm .droit {
+    position: absolute;
+    right: 2px;
+    top: 0;
+
+
+}
+
+.elm h2 {
+    color: rgb(190, 0, 0);
+}
+
+.elm .complet {
+    font-size: 10px;
 }
