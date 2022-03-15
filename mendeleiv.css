@@ -9,13 +9,14 @@
     background-color: orange;
     width: 100px;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: center;
     border-radius: 5%;
     -webkit-border-radius: 5%;
     -moz-border-radius: 5%;
     -ms-border-radius: 5%;
     -o-border-radius: 5%;
+    margin-top: 1px;
 }
 
 .mg {
