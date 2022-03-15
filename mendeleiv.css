@@ -4,18 +4,6 @@
    box-sizing: border-box;
 }
 
-.arriereplan {
-   background-color: #e6dfdf;
-}
-
-div {
-   width: 40px;
-   border: 1px solid black;
-   height: 40px;
-   border-radius: 4px;
-   font-weight: bold;
-}
-
 .elm {
    border: .5px solid;
    border-radius: 4px;
@@ -27,6 +15,7 @@ div {
    align-items: center;
    justify-content: center;
    font-family: sans-serif;
+   background-color: #e6dfdf;
 
 }
 
