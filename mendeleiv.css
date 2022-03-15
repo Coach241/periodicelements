@@ -29,6 +29,13 @@ h1::after {
     bottom: 25px;
     font-weight: normal;
 }
+.be h1::after {
+    content: "4";
+    font-size: 15px;
+    position: relative;
+    bottom: 25px;
+    font-weight: normal;
+}
 .petit {
     display: flex;
     flex-direction: column;
