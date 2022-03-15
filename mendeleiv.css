@@ -5,14 +5,6 @@
 }
 .halogenes{
     background-color: yellow;
-}
-body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.astate{
     position: relative;
     width: 90px;
     height: 90px;
@@ -21,6 +13,14 @@ body{
     align-items: center;
     border: solid 2px #444;
     border-radius: 10px;
+    margin: 1px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .num{
     position: absolute;
@@ -35,4 +35,5 @@ body{
     position: absolute;
     bottom: 0;
     font-size: 13px;
+    text-align: center;
 }
