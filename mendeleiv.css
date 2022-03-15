@@ -1,3 +1,12 @@
+.parent{
+   width: 700px;
+   display: grid;
+   grid-template-columns: repeat(9,1fr);
+}
 .transition {
-   background-color: #FF7D80;
+   background-color: #ff7dd4;
+   width: 75px;
+   height: px;
+   font-size: medium;
+   display: center;
 }
