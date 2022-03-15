@@ -12,38 +12,22 @@
     border: 1px solid black;
     text-align: center;
     border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+
 }
 
-.mg {
+.st {
     text-align: center;
 }
 
 h1::after {
-    content: "12";
+    content: "38";
     font-size: 15px;
     position: relative;
     bottom: 25px;
     font-weight: normal;
 }
-.be h1::after {
-    content: "4";
-    font-size: 15px;
-    position: relative;
-    bottom: 25px;
-    font-weight: normal;
-}
-.ca h1::after {
-    content: "20";
-    font-size: 15px;
-    position: relative;
-    bottom: 20px;
-    font-weight: normal;
-}
-.petit {
+
+.numero {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
