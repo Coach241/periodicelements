@@ -1,3 +1,4 @@
+
 .alcalins{
    
    width: 4em;
@@ -16,8 +17,7 @@
    border-radius: 4px;
    padding: 4px;
 }
-.alcalins .lithium .item{
-}
+
 .alcalins .lithium .one{
    text-align: right;
 }
@@ -26,6 +26,28 @@
    font-size: 22px;
 }
 .alcalins .lithium .three, .four{
+   font-size: 9px;
+   text-align: center;
+}
+/*----Sodium----*/
+.alcalins .sodium{
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   background-color: #FF7D80;
+   width: 4em;
+   margin-top: 1px;
+   border-radius: 4px;
+   padding: 4px;
+}
+
+.alcalins .sodium .one{
+   text-align: right;
+}
+.alcalins .sodium .two{
+   text-align: center;
+   font-size: 22px;
+}
+.alcalins .sodium .three, .four{
    font-size: 9px;
    text-align: center;
 }
@@ -118,5 +140,10 @@
    font-size: 9px;
    text-align: center;
 }
+/*--------Rendre les éléments gras-------*/
+.alcalins .two{
+   font-weight: bold;
+}
+
 
 
