@@ -34,7 +34,7 @@
    padding: 4px;
    background-color: #FF7D80;
    grid-template-columns: repeat(1, 1fr);
-   margin-top: 2px;
+   margin-top: 1px;
    width: 4em;
    border-radius: 4px;
 }
@@ -48,6 +48,49 @@
    font-size: 22px;
 }
 .alcalins .rubidium .three, .four{
+   font-size: 9px;
+   text-align: center;
+}
+/*----Cesium----*/
+.alcalins .cesium{
+   display: grid;
+   padding: 4px;
+   background-color: #FF7D80;
+   grid-template-columns: repeat(1, 1fr);
+   margin-top: 1px;
+   width: 4em;
+   border-radius: 4px;
+}
+.alcalins .cesium .one{
+   text-align: right;
+}
+.alcalins .cesium .two{
+   text-align: center;
+   font-size: 22px;
+}
+.alcalins .cesium .three, .four{
+   font-size: 9px;
+   text-align: center;
+}
+/*----Francium----*/
+.alcalins .francium{
+   display: grid;
+   padding: 4px;
+   background-color: #FF7D80;
+   grid-template-columns: repeat(1, 1fr);
+   margin-top: 1px;
+   width: 4em;
+   border-radius: 4px;
+}
+
+.alcalins .francium .one{
+   text-align: right;
+}
+.alcalins .francium .two{
+   text-align: center;
+   font-size: 22px;
+}
+.alcalins .francium .three, .four{
    font-size: 9px;
    text-align: center;
 }
