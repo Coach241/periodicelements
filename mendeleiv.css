@@ -36,6 +36,13 @@ h1::after {
     bottom: 25px;
     font-weight: normal;
 }
+.ca h1::after {
+    content: "20";
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+    font-weight: normal;
+}
 .petit {
     display: flex;
     flex-direction: column;
