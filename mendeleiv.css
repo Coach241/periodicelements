@@ -1,3 +1,11 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .halogenes{
     background-color: yellow;
+    width: 80px;
+    height: 80px;
 }
