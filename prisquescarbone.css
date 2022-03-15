@@ -60,13 +60,13 @@
 .phosphate .numero2{
   text-align: right;
 }
-.carbone .symbole, .nom, .valeur{
+.carbone2 .symbole2, .nom2, .valeur2{
   text-align: center;
 }
-.carbone .symbole{
+.carbone2 .symbole2{
   font-weight: bold;
   font-size: 40px;
 }
-.carbone .nom, .valeur{
+.carbone2 .nom2, .valeur2{
   font-size: 12px;
 }
