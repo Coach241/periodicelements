@@ -6,12 +6,36 @@
    margin: 1em;
 
 }
+/*----Lithium----*/
+.alcalins .lithium{
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   background-color: #FF7D80;
+   width: 4em;
+   margin-top: 1px;
+   border-radius: 4px;
+   padding: 4px;
+}
+.alcalins .lithium .item{
+}
+.alcalins .lithium .one{
+   text-align: right;
+}
+.alcalins .lithium .two{
+   text-align: center;
+   font-size: 22px;
+}
+.alcalins .lithium .three, .four{
+   font-size: 9px;
+   text-align: center;
+}
 /*----Potassium----*/
 .alcalins .potassium{
    display: grid;
    grid-template-columns: repeat(1, 1fr);
    background-color: #FF7D80;
    width: 4em;
+   margin-top: 1px;
    border-radius: 4px;
    padding: 4px;
 }
