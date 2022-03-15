@@ -3,16 +3,27 @@
     width: 100px;
     margin: 0 auto;
     border: 1px solid black;
+    text-align: center;
+}
+
+.mg {
+    text-align: center;
+    margin: 0;
+}
+
+h1::after {
+    content: "12";
+    font-size: 15px;
+    position: relative;
+    bottom: 25px;
+    font-weight: normal;
 }
 .petit {
     display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-}
-.oneTwoThree {
-    display: flex;
     flex-direction: column;
-}
-.mg {
-    text-align: center;
+    align-items: flex-start;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    height: 20px;
 }
