@@ -3,9 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .halogenes{
     background-color: yellow;
-    width: 80px;
-    height: 80px;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #444;
+    border-radius: 10px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num{
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+.titre{
+    font-weight: bold;
+    font-size: 20px;
+}
+.more{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
 }
