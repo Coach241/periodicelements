@@ -49,3 +49,6 @@ body{
 .ununseptium .titre{
     color: #675d34;
 }
+.Fluor .titre, .Chlore .titre{
+    color: red;
+}
