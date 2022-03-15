@@ -8,6 +8,11 @@
     background-color: rgb(119, 0, 231);
 }
 
+.contgaz_rare {
+    height: 100vh;
+    background-color: brown;
+}
+
 .elm {
     border: .5px solid;
     border-radius: 4px;
