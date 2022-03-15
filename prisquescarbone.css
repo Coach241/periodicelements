@@ -70,3 +70,95 @@
 .carbone2 .nom2, .valeur2{
   font-size: 12px;
 }
+.nométaux {
+  background-color: rgb(68, 209, 68);
+}
+.buttonO{
+  
+  width: 90px;
+  border: 2px solid black;
+  height: 90px;
+  border-radius: 6px;
+  background-color: rgb(68, 209, 68);
+  text-align: center;
+}
+.letterO{
+  color: brown;
+  font-size: 40px;
+  top:0px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.numberO{
+  text-align:right;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.sousO{
+  font-size: 10px;
+}
+.buttonH{
+  
+ width: 90px;
+ border: 2px solid black;
+ height: 90px;
+ border-radius: 6px;
+ background-color: rgb(68, 209, 68);
+ text-align: center;
+}
+.letterH{
+ color: brown;
+ font-size: 40px;
+ top:0px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.numberH{
+ text-align:right;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.sousH{
+ font-size: 10px;
+}
+.buttonS{
+  
+ width: 90px;
+ border: 2px solid black;
+ height: 90px;
+ border-radius: 6px;
+ background-color: rgb(68, 209, 68);
+ text-align: center;
+}
+.letterS{
+ font-size: 40px;
+ top:0px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.numberS{
+ text-align:right;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.sousS{
+ font-size: 10px;
+}
+.buttonSe{
+  
+ width: 90px;
+ border: 2px solid black;
+ height: 90px;
+ border-radius: 6px;
+ background-color: rgb(68, 209, 68);
+ text-align: center;
+}
+.letterSe{
+ font-size: 40px;
+ top:0px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.numberSe{
+ text-align:right;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.sousSe{
+ font-size: 10px;
+ }
