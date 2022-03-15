@@ -5,7 +5,7 @@
 }
 
 .gaz_rare {
-    background-color: blue;
+    background-color: rgb(119, 0, 231);
 }
 
 .elm {
@@ -19,7 +19,6 @@
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    background-color: blue;
 
 }
 
@@ -35,6 +34,6 @@
     color: rgb(190, 0, 0);
 }
 
-.elm .complet {
+.elm p {
     font-size: 10px;
 }
