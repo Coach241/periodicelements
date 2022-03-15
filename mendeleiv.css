@@ -21,4 +21,46 @@
 }
 .nométaux {
    background-color: rgb(68, 209, 68);
+.carbone{   
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-column-gap: 10px;
+   padding: 5px;
+   border-radius: 4px;
+   background-color: rgb(68, 209, 68);
+   width: 4em;
+}
+.carbone .numero{
+   text-align: right;
+}
+.carbone .symbole, .nom, .valeur{
+   text-align: center;
+}
+.carbone .symbole{
+   font-weight: bold;
+   font-size: 40px;
+}
+.carbone .nom, .valeur{
+   font-size: 12px;
+}
+.azote{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-column-gap: 10px;
+   padding: 5px;
+   border-radius: 4px;
+   background-color: rgb(68, 209, 68);
+   width: 4em;
+}
+.azote .symbole1{
+   color: red
+}
+.azote .numero1{
+   text-align: right;
+}
+.azote .symbole1{
+   font-weight: bold;
+   font-size: 40px;
 }

@@ -2,12 +2,11 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-column-gap: 6px;
+  grid-column-gap: 10px;
   padding: 5px;
-  border-radius: 6px;
+  border-radius: 4px;
   background-color: rgb(68, 209, 68);
   width: 4em;
-  border: 2px solid black;
 }
 .carbone .numero{
   text-align: right;
@@ -26,12 +25,11 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-column-gap: 6px;
+  grid-column-gap: 10px;
   padding: 5px;
-  border-radius: 6px;
+  border-radius: 4px;
   background-color: rgb(68, 209, 68);
   width: 4em;
-  border: 2px solid black;
 }
 .azote .symbole1{
   color: red
@@ -53,44 +51,39 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-column-gap: 6px;
+  grid-column-gap: 10px;
   padding: 5px;
-  border-radius: 6px;
+  border-radius: 4px;
   background-color: rgb(68, 209, 68);
   width: 4em;
-  border: 2px solid black;
 }
 .phosphate .numero2{
   text-align: right;
 }
-.phosphate .symbole2, .nom2, .valeur2{
+.carbone2 .symbole2, .nom2, .valeur2{
   text-align: center;
 }
-.phosphate .symbole2{
+.carbone2 .symbole2{
   font-weight: bold;
   font-size: 40px;
 }
-.phosphate .nom2, .valeur2{
+.carbone2 .nom2, .valeur2{
   font-size: 12px;
 }
-.carbone .azote, .phosphate, .buttonO, .buttonH, .buttonS
-.buttonSe {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-column-gap: 10px;
-  
+.nométaux {
+  background-color: rgb(68, 209, 68);
 }
 .buttonO{
   
-  width: 4em;
+  width: 90px;
   border: 2px solid black;
+  height: 90px;
   border-radius: 6px;
   background-color: rgb(68, 209, 68);
   text-align: center;
-  padding: 5px;
 }
 .letterO{
-  color: red;
+  color: brown;
   font-size: 40px;
   top:0px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -105,15 +98,15 @@
 }
 .buttonH{
   
- width: 4em;
+ width: 90px;
  border: 2px solid black;
+ height: 90px;
  border-radius: 6px;
  background-color: rgb(68, 209, 68);
  text-align: center;
- padding: 5px;
 }
 .letterH{
- color: red;
+ color: brown;
  font-size: 40px;
  top:0px;
  font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -128,12 +121,12 @@
 }
 .buttonS{
   
- width: 4em;
+ width: 90px;
  border: 2px solid black;
+ height: 90px;
  border-radius: 6px;
  background-color: rgb(68, 209, 68);
  text-align: center;
- padding: 5px;
 }
 .letterS{
  font-size: 40px;
@@ -150,12 +143,12 @@
 }
 .buttonSe{
   
- width: 4em;
+ width: 90px;
  border: 2px solid black;
+ height: 90px;
  border-radius: 6px;
  background-color: rgb(68, 209, 68);
  text-align: center;
- padding: 5px;
 }
 .letterSe{
  font-size: 40px;
