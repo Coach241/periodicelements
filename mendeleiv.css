@@ -1,3 +1,38 @@
-.transition {
-   background-color: #FF7D80;
+*,::before,::after{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
+.parent > div{
+   background-color: #FF7D80;
+   width: 100px;
+   height: 90px;
+   position: relative;
+} 
+.b{
+   width: 100px;
+   height: 90px;
+   position: relative;   
+   background-color: transparent;
+ }
+
+ .c{
+   position: absolute;
+   bottom: 15px;
+ }
+ .d{
+   position:absolute;
+   bottom: 0;
+   left:15px;
+ }
+
+ .e{
+   position:absolute;
+   top: 0;
+   right: 0;
+   color:black;
+   font-weight: bold;
+ }
+ .parent{
+    display: flex;
+ }
